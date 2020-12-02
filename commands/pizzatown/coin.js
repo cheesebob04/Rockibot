@@ -32,7 +32,7 @@ module.exports = class gstart extends Command {
             args: [
                 {
                     key: 'face',
-                    prompt: 'Do you want to bet on the coin lading on heads or tails?',
+                    prompt: 'Do you want to bet on the coin landing on heads or tails?',
                     type: 'string',
                     oneOf:['heads', 'tails']
                 },
